@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-PetroChina.THYT.KaoQXT.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PetroChina.THYT.KaoQXTTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-PetroChina.THYT.KaoQXTUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>pop.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3C4176CF27CDB9A859D6B4650B5EA20B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4DC46C9941F9AB16EC3E134C1AACC71B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8185594C96AEFAB5B0857189F4AD44E8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>833AD91FAD80DA9FAB8054CDEA56D4F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

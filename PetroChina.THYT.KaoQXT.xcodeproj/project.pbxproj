@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		989E2296CB91FB00A108D37B /* libPods-PetroChina.THYT.KaoQXT.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F6036505F5301F6F2DBCBE /* libPods-PetroChina.THYT.KaoQXT.a */; };
+		BCE496E66DBD0F94E8067174 /* libPods-PetroChina.THYT.KaoQXTUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB14876072F85C09DD81EAE1 /* libPods-PetroChina.THYT.KaoQXTUITests.a */; };
+		F20F67341D0F9A49003FBCD3 /* Left.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F20F67311D0F9A49003FBCD3 /* Left.storyboard */; };
+		F20F67351D0F9A49003FBCD3 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20F67331D0F9A49003FBCD3 /* LeftViewController.m */; };
+		F20F67391D0F9F40003FBCD3 /* CSLeftSlideControllerOne.m in Sources */ = {isa = PBXBuildFile; fileRef = F20F67381D0F9F40003FBCD3 /* CSLeftSlideControllerOne.m */; };
+		F20F673C1D0F9F7E003FBCD3 /* HWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20F673B1D0F9F7E003FBCD3 /* HWViewController.m */; };
+		F20F67451D0FA48E003FBCD3 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F20F67441D0FA48E003FBCD3 /* MeViewController.m */; };
+		F23C80221D0D0F3B00DA8BC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C80211D0D0F3B00DA8BC7 /* main.m */; };
+		F23C80251D0D0F3B00DA8BC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C80241D0D0F3B00DA8BC7 /* AppDelegate.m */; };
+		F23C802B1D0D0F3B00DA8BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23C80291D0D0F3B00DA8BC7 /* Main.storyboard */; };
+		F23C802D1D0D0F3B00DA8BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F23C802C1D0D0F3B00DA8BC7 /* Assets.xcassets */; };
+		F23C80301D0D0F3B00DA8BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23C802E1D0D0F3B00DA8BC7 /* LaunchScreen.storyboard */; };
+		F23C803B1D0D0F3B00DA8BC7 /* PetroChina_THYT_KaoQXTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C803A1D0D0F3B00DA8BC7 /* PetroChina_THYT_KaoQXTTests.m */; };
+		F23C80461D0D0F3B00DA8BC7 /* PetroChina_THYT_KaoQXTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C80451D0D0F3B00DA8BC7 /* PetroChina_THYT_KaoQXTUITests.m */; };
+		F23C80601D0D140700DA8BC7 /* ShenQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C805F1D0D140700DA8BC7 /* ShenQViewController.m */; };
+		F23C80631D0D141F00DA8BC7 /* ShenPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C80621D0D141F00DA8BC7 /* ShenPViewController.m */; };
+		F23C80661D0D143500DA8BC7 /* ChaXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C80651D0D143500DA8BC7 /* ChaXViewController.m */; };
+		F23C80691D0D148000DA8BC7 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C80681D0D148000DA8BC7 /* TabBarViewController.m */; };
+		F23C806D1D0D25D400DA8BC7 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C806C1D0D25D400DA8BC7 /* BaseViewController.m */; };
+		F23C80711D0D2AA300DA8BC7 /* LiButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C80701D0D2AA300DA8BC7 /* LiButton.m */; };
+		F23C80741D0D2C1400DA8BC7 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C80731D0D2C1400DA8BC7 /* UIView+Extension.m */; };
+		F23C807E1D0D56C100DA8BC7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C807D1D0D56C100DA8BC7 /* DetailViewController.m */; };
+		F23C80811D0D595600DA8BC7 /* MYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C80801D0D595600DA8BC7 /* MYNavigationController.m */; };
+		F23C80841D0D5AAE00DA8BC7 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F23C80831D0D5AAE00DA8BC7 /* UIBarButtonItem+Extension.m */; };
+		F2E385B11D0EB09200ACD460 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E385B01D0EB09200ACD460 /* TestViewController.m */; };
+		F2E385B41D0EB25100ACD460 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E385B31D0EB25100ACD460 /* OtherViewController.m */; };
+		F5AEC274D6DAAFD8EC0A7CD1 /* libPods-PetroChina.THYT.KaoQXTTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4668A7DD9D3428C8B40C3E40 /* libPods-PetroChina.THYT.KaoQXTTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F23C80371D0D0F3B00DA8BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23C80151D0D0F3B00DA8BC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23C801C1D0D0F3B00DA8BC7;
+			remoteInfo = PetroChina.THYT.KaoQXT;
+		};
+		F23C80421D0D0F3B00DA8BC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F23C80151D0D0F3B00DA8BC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F23C801C1D0D0F3B00DA8BC7;
+			remoteInfo = PetroChina.THYT.KaoQXT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16E3FB163FEFC0B8A3EF63B1 /* Pods-PetroChina.THYT.KaoQXT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetroChina.THYT.KaoQXT.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetroChina.THYT.KaoQXT/Pods-PetroChina.THYT.KaoQXT.release.xcconfig"; sourceTree = "<group>"; };
+		1AF24AB88C052FB232B8F082 /* Pods-PetroChina.THYT.KaoQXTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetroChina.THYT.KaoQXTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetroChina.THYT.KaoQXTTests/Pods-PetroChina.THYT.KaoQXTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4668A7DD9D3428C8B40C3E40 /* libPods-PetroChina.THYT.KaoQXTTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PetroChina.THYT.KaoQXTTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EF25203F0E669747C9F9BD8 /* Pods-PetroChina.THYT.KaoQXTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetroChina.THYT.KaoQXTTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetroChina.THYT.KaoQXTTests/Pods-PetroChina.THYT.KaoQXTTests.release.xcconfig"; sourceTree = "<group>"; };
+		AB14876072F85C09DD81EAE1 /* libPods-PetroChina.THYT.KaoQXTUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PetroChina.THYT.KaoQXTUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA8C70EA22EBE19BB160EDD4 /* Pods-PetroChina.THYT.KaoQXTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetroChina.THYT.KaoQXTUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetroChina.THYT.KaoQXTUITests/Pods-PetroChina.THYT.KaoQXTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD652AFA35C9F875C7DE1682 /* Pods-PetroChina.THYT.KaoQXT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetroChina.THYT.KaoQXT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetroChina.THYT.KaoQXT/Pods-PetroChina.THYT.KaoQXT.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F6036505F5301F6F2DBCBE /* libPods-PetroChina.THYT.KaoQXT.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PetroChina.THYT.KaoQXT.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F20F67311D0F9A49003FBCD3 /* Left.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Left.storyboard; sourceTree = "<group>"; };
+		F20F67321D0F9A49003FBCD3 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		F20F67331D0F9A49003FBCD3 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		F20F67361D0F9F40003FBCD3 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		F20F67371D0F9F40003FBCD3 /* CSLeftSlideControllerOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSLeftSlideControllerOne.h; sourceTree = "<group>"; };
+		F20F67381D0F9F40003FBCD3 /* CSLeftSlideControllerOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSLeftSlideControllerOne.m; sourceTree = "<group>"; };
+		F20F673A1D0F9F7E003FBCD3 /* HWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWViewController.h; sourceTree = "<group>"; };
+		F20F673B1D0F9F7E003FBCD3 /* HWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWViewController.m; sourceTree = "<group>"; };
+		F20F67431D0FA48E003FBCD3 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		F20F67441D0FA48E003FBCD3 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		F23C801D1D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetroChina.THYT.KaoQXT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23C80211D0D0F3B00DA8BC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F23C80231D0D0F3B00DA8BC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		F23C80241D0D0F3B00DA8BC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		F23C802A1D0D0F3B00DA8BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F23C802C1D0D0F3B00DA8BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F23C802F1D0D0F3B00DA8BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F23C80311D0D0F3B00DA8BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23C80361D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetroChina.THYT.KaoQXTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23C803A1D0D0F3B00DA8BC7 /* PetroChina_THYT_KaoQXTTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetroChina_THYT_KaoQXTTests.m; sourceTree = "<group>"; };
+		F23C803C1D0D0F3B00DA8BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23C80411D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetroChina.THYT.KaoQXTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23C80451D0D0F3B00DA8BC7 /* PetroChina_THYT_KaoQXTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetroChina_THYT_KaoQXTUITests.m; sourceTree = "<group>"; };
+		F23C80471D0D0F3B00DA8BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23C805E1D0D140700DA8BC7 /* ShenQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShenQViewController.h; sourceTree = "<group>"; };
+		F23C805F1D0D140700DA8BC7 /* ShenQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShenQViewController.m; sourceTree = "<group>"; };
+		F23C80611D0D141F00DA8BC7 /* ShenPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShenPViewController.h; sourceTree = "<group>"; };
+		F23C80621D0D141F00DA8BC7 /* ShenPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShenPViewController.m; sourceTree = "<group>"; };
+		F23C80641D0D143500DA8BC7 /* ChaXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChaXViewController.h; sourceTree = "<group>"; };
+		F23C80651D0D143500DA8BC7 /* ChaXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChaXViewController.m; sourceTree = "<group>"; };
+		F23C80671D0D148000DA8BC7 /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		F23C80681D0D148000DA8BC7 /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		F23C806A1D0D21D700DA8BC7 /* KaoqXT.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KaoqXT.pch; sourceTree = "<group>"; };
+		F23C806B1D0D25D400DA8BC7 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../Controller/List/BaseViewController.h; sourceTree = "<group>"; };
+		F23C806C1D0D25D400DA8BC7 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../Controller/List/BaseViewController.m; sourceTree = "<group>"; };
+		F23C806F1D0D2AA300DA8BC7 /* LiButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiButton.h; sourceTree = "<group>"; };
+		F23C80701D0D2AA300DA8BC7 /* LiButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiButton.m; sourceTree = "<group>"; };
+		F23C80721D0D2C1400DA8BC7 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		F23C80731D0D2C1400DA8BC7 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		F23C807C1D0D56C100DA8BC7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		F23C807D1D0D56C100DA8BC7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		F23C807F1D0D595600DA8BC7 /* MYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYNavigationController.h; sourceTree = "<group>"; };
+		F23C80801D0D595600DA8BC7 /* MYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYNavigationController.m; sourceTree = "<group>"; };
+		F23C80821D0D5AAE00DA8BC7 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		F23C80831D0D5AAE00DA8BC7 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		F2E385AF1D0EB09200ACD460 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		F2E385B01D0EB09200ACD460 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		F2E385B21D0EB25100ACD460 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
+		F2E385B31D0EB25100ACD460 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
+		F5CDD9FF16A4A69898649F34 /* Pods-PetroChina.THYT.KaoQXTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetroChina.THYT.KaoQXTUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetroChina.THYT.KaoQXTUITests/Pods-PetroChina.THYT.KaoQXTUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F23C801A1D0D0F3B00DA8BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989E2296CB91FB00A108D37B /* libPods-PetroChina.THYT.KaoQXT.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23C80331D0D0F3B00DA8BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AEC274D6DAAFD8EC0A7CD1 /* libPods-PetroChina.THYT.KaoQXTTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23C803E1D0D0F3B00DA8BC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE496E66DBD0F94E8067174 /* libPods-PetroChina.THYT.KaoQXTUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E0D4483B5503A16B8F5C148 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD652AFA35C9F875C7DE1682 /* Pods-PetroChina.THYT.KaoQXT.debug.xcconfig */,
+				16E3FB163FEFC0B8A3EF63B1 /* Pods-PetroChina.THYT.KaoQXT.release.xcconfig */,
+				1AF24AB88C052FB232B8F082 /* Pods-PetroChina.THYT.KaoQXTTests.debug.xcconfig */,
+				8EF25203F0E669747C9F9BD8 /* Pods-PetroChina.THYT.KaoQXTTests.release.xcconfig */,
+				BA8C70EA22EBE19BB160EDD4 /* Pods-PetroChina.THYT.KaoQXTUITests.debug.xcconfig */,
+				F5CDD9FF16A4A69898649F34 /* Pods-PetroChina.THYT.KaoQXTUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F23C80141D0D0F3B00DA8BC7 = {
+			isa = PBXGroup;
+			children = (
+				F23C801F1D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXT */,
+				F23C80391D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTTests */,
+				F23C80441D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTUITests */,
+				F23C801E1D0D0F3B00DA8BC7 /* Products */,
+				2E0D4483B5503A16B8F5C148 /* Pods */,
+				F6B1946C14780BEC9671769B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F23C801E1D0D0F3B00DA8BC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F23C801D1D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXT.app */,
+				F23C80361D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTTests.xctest */,
+				F23C80411D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F23C801F1D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXT */ = {
+			isa = PBXGroup;
+			children = (
+				F23C806E1D0D270700DA8BC7 /* BasicVC */,
+				F23C805A1D0D11DE00DA8BC7 /* TabBar */,
+				F23C80531D0D103D00DA8BC7 /* Controller */,
+				F23C80541D0D103D00DA8BC7 /* Model */,
+				F23C80551D0D103D00DA8BC7 /* Othrer */,
+				F23C80561D0D103D00DA8BC7 /* Resources */,
+				F23C80571D0D103D00DA8BC7 /* View */,
+				F23C802E1D0D0F3B00DA8BC7 /* LaunchScreen.storyboard */,
+				F23C80291D0D0F3B00DA8BC7 /* Main.storyboard */,
+				F23C802C1D0D0F3B00DA8BC7 /* Assets.xcassets */,
+				F23C80311D0D0F3B00DA8BC7 /* Info.plist */,
+				F23C80201D0D0F3B00DA8BC7 /* Supporting Files */,
+			);
+			path = PetroChina.THYT.KaoQXT;
+			sourceTree = "<group>";
+		};
+		F23C80201D0D0F3B00DA8BC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F23C80211D0D0F3B00DA8BC7 /* main.m */,
+				F23C806A1D0D21D700DA8BC7 /* KaoqXT.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F23C80391D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTTests */ = {
+			isa = PBXGroup;
+			children = (
+				F23C803A1D0D0F3B00DA8BC7 /* PetroChina_THYT_KaoQXTTests.m */,
+				F23C803C1D0D0F3B00DA8BC7 /* Info.plist */,
+			);
+			path = PetroChina.THYT.KaoQXTTests;
+			sourceTree = "<group>";
+		};
+		F23C80441D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F23C80451D0D0F3B00DA8BC7 /* PetroChina_THYT_KaoQXTUITests.m */,
+				F23C80471D0D0F3B00DA8BC7 /* Info.plist */,
+			);
+			path = PetroChina.THYT.KaoQXTUITests;
+			sourceTree = "<group>";
+		};
+		F23C80531D0D103D00DA8BC7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F2E385811D0E61A000ACD460 /* LeftSide */,
+				F23C80581D0D119B00DA8BC7 /* Detail */,
+				F23C80591D0D119B00DA8BC7 /* List */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F23C80541D0D103D00DA8BC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F23C80551D0D103D00DA8BC7 /* Othrer */ = {
+			isa = PBXGroup;
+			children = (
+				F23C80231D0D0F3B00DA8BC7 /* AppDelegate.h */,
+				F23C80241D0D0F3B00DA8BC7 /* AppDelegate.m */,
+				F2E385AF1D0EB09200ACD460 /* TestViewController.h */,
+				F2E385B01D0EB09200ACD460 /* TestViewController.m */,
+			);
+			path = Othrer;
+			sourceTree = "<group>";
+		};
+		F23C80561D0D103D00DA8BC7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F23C80571D0D103D00DA8BC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F23C80721D0D2C1400DA8BC7 /* UIView+Extension.h */,
+				F23C80731D0D2C1400DA8BC7 /* UIView+Extension.m */,
+				F23C806F1D0D2AA300DA8BC7 /* LiButton.h */,
+				F23C80701D0D2AA300DA8BC7 /* LiButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F23C80581D0D119B00DA8BC7 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				F23C807C1D0D56C100DA8BC7 /* DetailViewController.h */,
+				F23C807D1D0D56C100DA8BC7 /* DetailViewController.m */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		F23C80591D0D119B00DA8BC7 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				F23C805E1D0D140700DA8BC7 /* ShenQViewController.h */,
+				F23C805F1D0D140700DA8BC7 /* ShenQViewController.m */,
+				F23C80611D0D141F00DA8BC7 /* ShenPViewController.h */,
+				F23C80621D0D141F00DA8BC7 /* ShenPViewController.m */,
+				F23C80641D0D143500DA8BC7 /* ChaXViewController.h */,
+				F23C80651D0D143500DA8BC7 /* ChaXViewController.m */,
+				F20F67431D0FA48E003FBCD3 /* MeViewController.h */,
+				F20F67441D0FA48E003FBCD3 /* MeViewController.m */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		F23C805A1D0D11DE00DA8BC7 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F23C80821D0D5AAE00DA8BC7 /* UIBarButtonItem+Extension.h */,
+				F23C80831D0D5AAE00DA8BC7 /* UIBarButtonItem+Extension.m */,
+				F23C80671D0D148000DA8BC7 /* TabBarViewController.h */,
+				F23C80681D0D148000DA8BC7 /* TabBarViewController.m */,
+				F23C807F1D0D595600DA8BC7 /* MYNavigationController.h */,
+				F23C80801D0D595600DA8BC7 /* MYNavigationController.m */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		F23C806E1D0D270700DA8BC7 /* BasicVC */ = {
+			isa = PBXGroup;
+			children = (
+				F23C806B1D0D25D400DA8BC7 /* BaseViewController.h */,
+				F23C806C1D0D25D400DA8BC7 /* BaseViewController.m */,
+			);
+			path = BasicVC;
+			sourceTree = "<group>";
+		};
+		F2E385811D0E61A000ACD460 /* LeftSide */ = {
+			isa = PBXGroup;
+			children = (
+				F20F67361D0F9F40003FBCD3 /* Constants.h */,
+				F20F67371D0F9F40003FBCD3 /* CSLeftSlideControllerOne.h */,
+				F20F67381D0F9F40003FBCD3 /* CSLeftSlideControllerOne.m */,
+				F20F67311D0F9A49003FBCD3 /* Left.storyboard */,
+				F20F67321D0F9A49003FBCD3 /* LeftViewController.h */,
+				F20F67331D0F9A49003FBCD3 /* LeftViewController.m */,
+				F2E385B21D0EB25100ACD460 /* OtherViewController.h */,
+				F2E385B31D0EB25100ACD460 /* OtherViewController.m */,
+				F20F673A1D0F9F7E003FBCD3 /* HWViewController.h */,
+				F20F673B1D0F9F7E003FBCD3 /* HWViewController.m */,
+			);
+			path = LeftSide;
+			sourceTree = "<group>";
+		};
+		F6B1946C14780BEC9671769B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0F6036505F5301F6F2DBCBE /* libPods-PetroChina.THYT.KaoQXT.a */,
+				4668A7DD9D3428C8B40C3E40 /* libPods-PetroChina.THYT.KaoQXTTests.a */,
+				AB14876072F85C09DD81EAE1 /* libPods-PetroChina.THYT.KaoQXTUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F23C801C1D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23C804A1D0D0F3B00DA8BC7 /* Build configuration list for PBXNativeTarget "PetroChina.THYT.KaoQXT" */;
+			buildPhases = (
+				0C7796BA8F405F716546DAD8 /* 📦 Check Pods Manifest.lock */,
+				F23C80191D0D0F3B00DA8BC7 /* Sources */,
+				F23C801A1D0D0F3B00DA8BC7 /* Frameworks */,
+				F23C801B1D0D0F3B00DA8BC7 /* Resources */,
+				81C69494AA87AF5EBF992F21 /* 📦 Embed Pods Frameworks */,
+				92C2F82A653CF6C76EE296A2 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetroChina.THYT.KaoQXT;
+			productName = PetroChina.THYT.KaoQXT;
+			productReference = F23C801D1D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F23C80351D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23C804D1D0D0F3B00DA8BC7 /* Build configuration list for PBXNativeTarget "PetroChina.THYT.KaoQXTTests" */;
+			buildPhases = (
+				F7EA44943F217337A44FD706 /* 📦 Check Pods Manifest.lock */,
+				F23C80321D0D0F3B00DA8BC7 /* Sources */,
+				F23C80331D0D0F3B00DA8BC7 /* Frameworks */,
+				F23C80341D0D0F3B00DA8BC7 /* Resources */,
+				07CA93C901A4B92CFF0070F5 /* 📦 Embed Pods Frameworks */,
+				D09109BDA8CC64C1CC6377E6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23C80381D0D0F3B00DA8BC7 /* PBXTargetDependency */,
+			);
+			name = PetroChina.THYT.KaoQXTTests;
+			productName = PetroChina.THYT.KaoQXTTests;
+			productReference = F23C80361D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F23C80401D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23C80501D0D0F3B00DA8BC7 /* Build configuration list for PBXNativeTarget "PetroChina.THYT.KaoQXTUITests" */;
+			buildPhases = (
+				AE5A4551E182D84CEC10AEE8 /* 📦 Check Pods Manifest.lock */,
+				F23C803D1D0D0F3B00DA8BC7 /* Sources */,
+				F23C803E1D0D0F3B00DA8BC7 /* Frameworks */,
+				F23C803F1D0D0F3B00DA8BC7 /* Resources */,
+				0A3E15FC96BC89F74D65D62C /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23C80431D0D0F3B00DA8BC7 /* PBXTargetDependency */,
+			);
+			name = PetroChina.THYT.KaoQXTUITests;
+			productName = PetroChina.THYT.KaoQXTUITests;
+			productReference = F23C80411D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F23C80151D0D0F3B00DA8BC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Migoo;
+				TargetAttributes = {
+					F23C801C1D0D0F3B00DA8BC7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 99248TBS7V;
+					};
+					F23C80351D0D0F3B00DA8BC7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F23C801C1D0D0F3B00DA8BC7;
+					};
+					F23C80401D0D0F3B00DA8BC7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F23C801C1D0D0F3B00DA8BC7;
+					};
+				};
+			};
+			buildConfigurationList = F23C80181D0D0F3B00DA8BC7 /* Build configuration list for PBXProject "PetroChina.THYT.KaoQXT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F23C80141D0D0F3B00DA8BC7;
+			productRefGroup = F23C801E1D0D0F3B00DA8BC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F23C801C1D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXT */,
+				F23C80351D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTTests */,
+				F23C80401D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F23C801B1D0D0F3B00DA8BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23C80301D0D0F3B00DA8BC7 /* LaunchScreen.storyboard in Resources */,
+				F20F67341D0F9A49003FBCD3 /* Left.storyboard in Resources */,
+				F23C802D1D0D0F3B00DA8BC7 /* Assets.xcassets in Resources */,
+				F23C802B1D0D0F3B00DA8BC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23C80341D0D0F3B00DA8BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23C803F1D0D0F3B00DA8BC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07CA93C901A4B92CFF0070F5 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetroChina.THYT.KaoQXTTests/Pods-PetroChina.THYT.KaoQXTTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A3E15FC96BC89F74D65D62C /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetroChina.THYT.KaoQXTUITests/Pods-PetroChina.THYT.KaoQXTUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C7796BA8F405F716546DAD8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81C69494AA87AF5EBF992F21 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetroChina.THYT.KaoQXT/Pods-PetroChina.THYT.KaoQXT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92C2F82A653CF6C76EE296A2 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetroChina.THYT.KaoQXT/Pods-PetroChina.THYT.KaoQXT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE5A4551E182D84CEC10AEE8 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D09109BDA8CC64C1CC6377E6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetroChina.THYT.KaoQXTTests/Pods-PetroChina.THYT.KaoQXTTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7EA44943F217337A44FD706 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F23C80191D0D0F3B00DA8BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F20F67451D0FA48E003FBCD3 /* MeViewController.m in Sources */,
+				F23C80741D0D2C1400DA8BC7 /* UIView+Extension.m in Sources */,
+				F2E385B41D0EB25100ACD460 /* OtherViewController.m in Sources */,
+				F23C806D1D0D25D400DA8BC7 /* BaseViewController.m in Sources */,
+				F23C80251D0D0F3B00DA8BC7 /* AppDelegate.m in Sources */,
+				F23C80711D0D2AA300DA8BC7 /* LiButton.m in Sources */,
+				F23C80691D0D148000DA8BC7 /* TabBarViewController.m in Sources */,
+				F23C80601D0D140700DA8BC7 /* ShenQViewController.m in Sources */,
+				F23C807E1D0D56C100DA8BC7 /* DetailViewController.m in Sources */,
+				F23C80221D0D0F3B00DA8BC7 /* main.m in Sources */,
+				F20F67351D0F9A49003FBCD3 /* LeftViewController.m in Sources */,
+				F23C80811D0D595600DA8BC7 /* MYNavigationController.m in Sources */,
+				F20F67391D0F9F40003FBCD3 /* CSLeftSlideControllerOne.m in Sources */,
+				F23C80841D0D5AAE00DA8BC7 /* UIBarButtonItem+Extension.m in Sources */,
+				F23C80661D0D143500DA8BC7 /* ChaXViewController.m in Sources */,
+				F2E385B11D0EB09200ACD460 /* TestViewController.m in Sources */,
+				F23C80631D0D141F00DA8BC7 /* ShenPViewController.m in Sources */,
+				F20F673C1D0F9F7E003FBCD3 /* HWViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23C80321D0D0F3B00DA8BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23C803B1D0D0F3B00DA8BC7 /* PetroChina_THYT_KaoQXTTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23C803D1D0D0F3B00DA8BC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23C80461D0D0F3B00DA8BC7 /* PetroChina_THYT_KaoQXTUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F23C80381D0D0F3B00DA8BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23C801C1D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXT */;
+			targetProxy = F23C80371D0D0F3B00DA8BC7 /* PBXContainerItemProxy */;
+		};
+		F23C80431D0D0F3B00DA8BC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F23C801C1D0D0F3B00DA8BC7 /* PetroChina.THYT.KaoQXT */;
+			targetProxy = F23C80421D0D0F3B00DA8BC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F23C80291D0D0F3B00DA8BC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23C802A1D0D0F3B00DA8BC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F23C802E1D0D0F3B00DA8BC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F23C802F1D0D0F3B00DA8BC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F23C80481D0D0F3B00DA8BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F23C80491D0D0F3B00DA8BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F23C804B1D0D0F3B00DA8BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD652AFA35C9F875C7DE1682 /* Pods-PetroChina.THYT.KaoQXT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/migoo/Desktop/tuha/PetroChina.THYT.KaoQXT/PetroChina.THYT.KaoQXT/KaoqXT.pch;
+				INFOPLIST_FILE = PetroChina.THYT.KaoQXT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.migoosoft.www.PetroChina-THYT-KaoQXT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F23C804C1D0D0F3B00DA8BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E3FB163FEFC0B8A3EF63B1 /* Pods-PetroChina.THYT.KaoQXT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = /Users/migoo/Desktop/tuha/PetroChina.THYT.KaoQXT/PetroChina.THYT.KaoQXT/KaoqXT.pch;
+				INFOPLIST_FILE = PetroChina.THYT.KaoQXT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.migoosoft.www.PetroChina-THYT-KaoQXT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F23C804E1D0D0F3B00DA8BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF24AB88C052FB232B8F082 /* Pods-PetroChina.THYT.KaoQXTTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PetroChina.THYT.KaoQXTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.migoosoft.www.PetroChina-THYT-KaoQXTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetroChina.THYT.KaoQXT.app/PetroChina.THYT.KaoQXT";
+			};
+			name = Debug;
+		};
+		F23C804F1D0D0F3B00DA8BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EF25203F0E669747C9F9BD8 /* Pods-PetroChina.THYT.KaoQXTTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PetroChina.THYT.KaoQXTTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.migoosoft.www.PetroChina-THYT-KaoQXTTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetroChina.THYT.KaoQXT.app/PetroChina.THYT.KaoQXT";
+			};
+			name = Release;
+		};
+		F23C80511D0D0F3B00DA8BC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA8C70EA22EBE19BB160EDD4 /* Pods-PetroChina.THYT.KaoQXTUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PetroChina.THYT.KaoQXTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.migoosoft.www.PetroChina-THYT-KaoQXTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PetroChina.THYT.KaoQXT;
+			};
+			name = Debug;
+		};
+		F23C80521D0D0F3B00DA8BC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5CDD9FF16A4A69898649F34 /* Pods-PetroChina.THYT.KaoQXTUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = PetroChina.THYT.KaoQXTUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.migoosoft.www.PetroChina-THYT-KaoQXTUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PetroChina.THYT.KaoQXT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F23C80181D0D0F3B00DA8BC7 /* Build configuration list for PBXProject "PetroChina.THYT.KaoQXT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23C80481D0D0F3B00DA8BC7 /* Debug */,
+				F23C80491D0D0F3B00DA8BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23C804A1D0D0F3B00DA8BC7 /* Build configuration list for PBXNativeTarget "PetroChina.THYT.KaoQXT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23C804B1D0D0F3B00DA8BC7 /* Debug */,
+				F23C804C1D0D0F3B00DA8BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23C804D1D0D0F3B00DA8BC7 /* Build configuration list for PBXNativeTarget "PetroChina.THYT.KaoQXTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23C804E1D0D0F3B00DA8BC7 /* Debug */,
+				F23C804F1D0D0F3B00DA8BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23C80501D0D0F3B00DA8BC7 /* Build configuration list for PBXNativeTarget "PetroChina.THYT.KaoQXTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23C80511D0D0F3B00DA8BC7 /* Debug */,
+				F23C80521D0D0F3B00DA8BC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F23C80151D0D0F3B00DA8BC7 /* Project object */;
+}
